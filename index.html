@@ -3,9 +3,10 @@
 
 
 <!-- 
+
   
-  Well, well, well,
-  I have intentionally made the source code look as ugly as possible. :-)  
+(c) Alva's Education Foundation.
+
 
 -->
 
@@ -15,15 +16,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-  <script src="beta_js/JX.js"></script>
+  <script src="js/JX.js"></script>
   <link href="css/MX.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <script src="beta_js/MX.js"></script>
+  <script src="js/MX.js"></script>
   <title>
      Alva's Remote Learning
   </title>
 
   <style>
+
+
     .tooltip {
       position: relative;
       display: inline-block;
@@ -61,139 +64,111 @@
     </style>
 </head>
 
-<body id="bodyplace" oncontextmenu="alert('Come on..! My site is not THAT good..!   :-) ')" class="container">
-  <br>
-  <br>
-  <font color="black">
-    <hr><br><center><h4>The Showcase</h4></center><br>
-    <center><div class="tooltip"><span class="tooltiptext">A Developer who develops Programs, Products, and Stories</span><div id="year"></div></div></center>
-    <br><hr>
-    <div id='welcomeback'></div>
-    <br>
-    <center>
-        <a href="https://linkedin.com/in/chandanshastri" target="_blank"><b>LinkedIn</b></a> |
-        <a href="https://github.com/ChandanShastri" target="_blank"><b>GitHub</b></a> |
-        <a href="https://medium.com/@chandanrshastri" target="_blank"><b>Medium</b></a> |
-        <a href="https://instagram.com/chandanrshastri" target="_blank">
-        <b>Instagram</b></a> |
-        <a href="https://youtube.com/c/chandanshastri" target="_blank">
-        <b>YouTube</b></a>
-    </center>
-  </font>
-  <br><hr><br>
-
-
-<div class="container">
-  <div class="card z-depth-4">
-    <div class="card-content">
-      <p><center>I am working on some other projects right now,<br>
-        So I didn't get enough time to work on my own Site...!<br><br>
-        But you can checkout my projects below :</center></p>
-    </div>
-    <div class="card-tabs">
-      <ul class="tabs tabs-fixed-width">
-        <li class="tab"><a class="active" href="#bigdata">Big Data Projects</a></li>
-        <li class="tab"><a href="#cs_kyd">Your Device</a></li>
-        <li class="tab"><a href="#cs_ml">Machine Learning</a></li>
-        <li class="tab"><a href="#cs_apps">Desktop Apps</a></li>
-      </ul>
-    </div>
-    <div class="card-content grey lighten-4">
-      <center>
-      <div id="bigdata" class="active"><a href="https://hub.docker.com/u/chandanshastri" target="_blank"><button type="button" class="waves-effect waves-light btn-small">Chandan on Docker Hub</button></a>
-       <br><br> <span>Checkout My Custom DataScience Workspace ( aka cs_ds ),<br>Specially crafted for plug and play development on Hadoop and Spark.<br>
-      <br><i>System Requirements : Docker Desktop, Min. 8 GB RAM, Min. 6 GB Disk Space. </i> 
-    <br><br><a target="_blank" href='https://medium.com/@chandanrshastri/custom-data-science-workspace-using-docker-6629f5218ccd'><b>Read the Backstory</b></a><br>
-    <br>
-    <b>docker pull chandanshastri/cs_ds_v1.21</b><br>
-    <b>docker run --hostname csds --name cs_ds -it --entrypoint /bin/bash chandanshastri/cs_ds_v1.21:latest</b>
-    <b></b><br><br><hr>
-    <br>Don't want to bother with Docker on Windows ?<br>
-    <a href='https://sourceforge.net/projects/chandanshastri-csds/files/' target="_blank">Download my Custom Package instead</a><br>
-    <br><i>( Includes Compatible Python Installer and JDK )</i>
-    <br><br> <b>Instructions :</b> <br>Extract -> Run the setup.cmd -> view the generated README file.<br>Configure hdfs-site.xml and spark-defaults.conf files.<br> ( Replace '\' with '/' in paths )
-    <br>
-
-    
-    </span>
+<body id="bodyplace">
+<nav class="nav">
+<div class="navbar">
+    <nav>
+      <div class="nav-wrapper yellow">
+        <a href="#!" class="brand-logo"><img height='60px' widht='60px' src='AEF.png'></a>
+        <ul class="right hide-on-med-and-down">
+          
+          <li><a target="_blank" href="http://alvas.org"><b><span class="blue-text text-darken-2">AEF</span></a></li>
+          <li><a target="_blank" href="http://aiet.org.in"><span class="blue-text text-darken-2">AIET</span></b></a></li>
+        </span>
+        </ul>
       </div>
-      <div id="cs_ml"><button type="button" class="waves-effect waves-light btn-small">( Under Construction )</button></div>
-      <div id="cs_apps"><button type="button" class="waves-effect waves-light btn-small">( Under Construction )</button></div>
-      <div id="cs_kyd">
-      <b>Battery : </b><span id="dtype"></span><br>
-      <b>Platform : </b><span id="btype"></span>
-      </div>
-    </center>
-    </div>
+    </nav>
   </div>
-</div>
-<br><hr>
+  </nav>
 <br>
 
-<style>
-li {
-    list-style-type: circle;
-}
 
-li li {
-    list-style-type: square;
-}
 
-</style>
+  <div class="container "> 
+    <center><img class="responsive-img" src="logo.png" width='160px' height="160px"></center>
+<br>
+    <div class="row">
+      <div class="grid-example col s12"><span class="flow-text"> <center><b>Welcome to Alva's Remote Education System</b></center></span></div>
+    </div>
+  
+    <div class="row">
 
-<div class="container">
-  <div class="card z-depth-4">
-    <div class="card-content">
-      <p><center><b><h6>Pseudo Research ( aka cs_pr )</b></center></h6>
-          <ol>
-            <li><a href="https://youtu.be/HqDNjKnf98M" target="_blank" >Night Mode on Smartphones and Computational Photography</a></li>
-            <li><a href="csds/datascience.html" target="_blank" >Weather Data Processing and Prediction ( in Progress )</a></li>
-          </ol>
-      </p>
-</div>
-</div></div>
+      <div class="col s4">
+        <div class="card-panel hoverable z-depth-2"> 
+         <center>
+          
+          <b>Alva's PU College</b>
+          <br><hr>
+          <br>
+          CET Practice Tests<br><br>
+          <a target='_blank' href='http://edu.alvas.org/learn' class="btn-floating btn-large cyan pulse">Login</a>
 
-<br><hr><br>
-<div class="container">
-  <div class="card z-depth-4">
-    <div class="card-content">
-      <p><center><b><h6>Pseudo Writings ( aka cs_pw )</b></center></h6><br>
-        <center>
-          <a href="https://medium.com/@chandanrshastri" target="_blank"><button type="button" class="waves-effect waves-light btn-small">Chandan on Medium</button></a>
         </center>
-      </p>
-</div>
-</div></div>
-<br><hr><br>
+        <br><br>
+        </div>
+      </div>
 
-<div class="container"><center>
-  <img src="imgs/cs_logo.png" class="responsive-img z-depth-4" alt="Chandan Shastri's Logo"></center>
-</div><br><br>
+      <div class="col s4">
+        <div class="card-panel hoverable z-depth-2"> 
+         <center>
+          
+          <b>Alva's Degree College</b>
+          <br><hr>
+          <br>
+          Online Classes and Materials<br><br><br>
+          <a class="btn disabled">Coming Soon</a>
 
-<div id="footer-mobile">
-</div>
+        </center>
+        <br><br>
+        </div>
+      </div>
 
-<script>
-  if(screen.width < 720) {
-    document.getElementById('footer-mobile').innerHTML="<br><br><footer><center><font aria-setsize='5'> This Site is not designed for mobile viewing. </font></center><br><br></footer>";
-  }
+      <div class="col s4">
+        <div class="card-panel hoverable z-depth-2"> 
+         <center>
+          
+          <b>Alva's Engineering College</b>
+          <br><hr>
+          <br>
+          Online Classes and Materials<br><br><br>
+          <a class="btn disabled">Coming Soon</a>
 
-  document.getElementById('year').innerHTML="&copy; Chandan Shastri - "+(new Date().getFullYear());
+        </center>
+        <br><br>
+        </div>
+      </div>
 
-  function cs_web () {
-  console.log('Chandan Shastri\'s Workspace :  ')
-  console.log(screen.width);
-  console.log(window.screen.orientation)
-  console.log(navigator.platform)
-  }
 
-  navigator.getBattery().then(function(battery) {
-  document.getElementById('dtype').innerHTML=battery.level*100 +" %";
-  });
+     
 
-  document.getElementById('btype').innerHTML=navigator.platform;
 
-</script>
+    </div>
+
+  </div>
+
+
+<br><br>
+
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <center>
+          <h5 class="white-text"></h5>
+          <p class="grey-text text-lighten-4">Stay Home, Stay Safe. Let's fight this Pandemic together.</p></center>
+        
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <center>  © 2020 Alva's Education Foundation </center>
+      
+      </div>
+    
+    </div>
+  </footer>
+
+
 
 </body>
 
