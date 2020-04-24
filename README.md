@@ -2,6 +2,7 @@
 
 This Repo tracks build updates for the AIET's On-Premise Server.
 
+#### <a href='https://chandanshastri.github.io/aiet_server/ares.html'> Server Build Logs </a>
 
 
 ### AIET On-Premise Server Infrastructure  :
