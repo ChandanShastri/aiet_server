@@ -8,17 +8,17 @@ This Repo tracks build updates for the AIET's On-Premise Server updates.
 
 #### High Throughput Network Configuration, Zero Latency  Network Security, Firewall administration, Adaptive Traffic channeling and Bandwidth Assurance :
 
-Mr. Shreekanth Suvarna
+Mr. Shreekanth Suvarna, 
 System Admin, AIET
 
-#### High Performance Server Hardware Config & Uptime Assurance, Site Reliability Engineering with Disaster Recovery Protocol ( DRP ) :
+#### High Performance Server Hardware Config & Uptime Assurance, Site Reliability Engineering with Disaster Recovery Protocol (DRP) :
 
 Mr. Jeevan, 
-Systems Engineer, AIET.
+Systems Engineer, AIET
 
 #### Server Software Architecture Design and Implementation,  Dynamic Optimizations Stack, Performance Assurance & Solution Design for ARES :
 
-<a href='https://chandanshastri.github.io'>Mr. Chandan Shastri
+<a href='https://chandanshastri.github.io'>Mr. Chandan Shastri, 
 Alumni, AIET</a>
 
 
