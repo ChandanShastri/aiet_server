@@ -1,6 +1,6 @@
 ## ARES - Alva's Cloud Platform 
 
-This Repo tracks build updates for the AIET's On-Premise Server updates.
+This Repo tracks build updates for the AIET's On-Premise Server.
 
 
 
