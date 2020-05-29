@@ -1,4 +1,4 @@
-## ARES - Alva's Cloud Platform 
+## Spartan Server for ARES 
 
 This Repo tracks build updates for the AIET's On-Premise Server.
 
